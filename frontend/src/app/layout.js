@@ -44,6 +44,9 @@ export default function RootLayout({ children }) {
       <head>
         <title>UniPlanner — Academic Workload Manager</title>
         <meta name="description" content="Manage your university modules, track assignments, visualize deadlines, and monitor academic progress." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
       <body>
         <AuthProvider>
